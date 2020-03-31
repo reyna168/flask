@@ -1,0 +1,12 @@
+https://www.jianshu.com/p/5fd8c2cbad3b
+
+
+pip install Flask-Migrate
+pip install Flask-Script 
+
+
+
+$ python manage.py db init
+$ python manage.py db migrate
+$ python manage.py db upgrade
+$ python manage.py db --help
